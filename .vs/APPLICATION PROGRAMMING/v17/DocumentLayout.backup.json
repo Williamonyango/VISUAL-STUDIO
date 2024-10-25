@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\programming\\VISUAL STUDIO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\socials.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\socials.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\transcript.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\transcript.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\message.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\message.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\admission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\admission.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\complaints.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\complaints.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|c:\\programming\\visual studio\\application programming\\faqs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{573DB18B-5829-4A8D-9790-871E866D3C95}|APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj|solutionrelative:application programming\\faqs.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Form1.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Form1.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Form1.vb",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T17:40:42.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Form1.Designer.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Form1.Designer.vb",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Form1.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:16:28.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.vb",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Dashboard.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Dashboard.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Dashboard.vb",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Dashboard.vb",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:18:57.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Dashboard.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Dashboard.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Dashboard.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Dashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:15:55.91Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FAQs.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\FAQs.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\FAQs.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\FAQs.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\FAQs.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:15:09.299Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Complaints.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Complaints.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Complaints.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Complaints.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Complaints.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:14:15.596Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admission.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Admission.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Admission.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Admission.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Admission.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:13:48.218Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Message.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Message.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Message.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Message.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Message.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:13:08.921Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transcript.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Transcript.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Transcript.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Transcript.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Transcript.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:12:36.392Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Socials.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Socials.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Socials.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Socials.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Socials.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T20:12:10.345Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Form1.vb",
+              "RelativeDocumentMoniker": "APPLICATION PROGRAMMING\\Form1.vb",
+              "ToolTip": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\Form1.vb [Design]",
+              "RelativeToolTip": "APPLICATION PROGRAMMING\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-21T17:17:08.887Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
