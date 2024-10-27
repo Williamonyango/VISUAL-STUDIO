@@ -17,10 +17,26 @@
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles lblProgress.Click
-
+        lblProgress.Text = "Current Session Progress"
     End Sub
 
     Private Sub lblfee_Click(sender As Object, e As EventArgs) Handles lblfee.Click
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ProgressBar1.Value = 50
+    End Sub
+
+    Private Sub Label2_Click_1(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub ProgressBar1_Click(sender As Object, e As EventArgs) Handles ProgressBar1.Click
 
     End Sub
 End Class

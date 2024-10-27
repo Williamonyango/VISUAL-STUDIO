@@ -82,4 +82,12 @@ Public Class Form1
     Private Sub lblWelcomeMessage_Click(sender As Object, e As EventArgs) Handles lblWelcomeMessage.Click
 
     End Sub
+
+    Private Sub btnFinacials_Click(sender As Object, e As EventArgs) Handles btnFinacials.Click
+        switchPanel(Financials)
+    End Sub
+
+    Private Sub lblWelcome_Click(sender As Object, e As EventArgs) Handles lblWelcome.Click
+
+    End Sub
 End Class
