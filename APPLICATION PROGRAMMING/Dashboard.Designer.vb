@@ -47,7 +47,7 @@ Partial Class Dashboard
         DataGridView1.Name = "DataGridView1"
         DataGridView1.ReadOnly = True
         DataGridView1.RowHeadersWidth = 62
-        DataGridView1.Size = New Size(933, 388)
+        DataGridView1.Size = New Size(933, 311)
         DataGridView1.TabIndex = 20
         DataGridView1.Visible = False
         ' 
@@ -77,22 +77,23 @@ Partial Class Dashboard
         ' 
         ' btnUnits
         ' 
-        btnUnits.Font = New Font("Segoe UI", 15F, FontStyle.Bold)
-        btnUnits.ForeColor = Color.LimeGreen
+        btnUnits.BackColor = Color.ForestGreen
+        btnUnits.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnUnits.ForeColor = Color.White
         btnUnits.Location = New Point(106, 53)
         btnUnits.Margin = New Padding(4, 5, 4, 5)
         btnUnits.Name = "btnUnits"
         btnUnits.Size = New Size(199, 83)
         btnUnits.TabIndex = 21
         btnUnits.Text = "Show units"
-        btnUnits.UseVisualStyleBackColor = True
+        btnUnits.UseVisualStyleBackColor = False
         ' 
         ' lblfee
         ' 
         lblfee.AutoSize = True
         lblfee.Font = New Font("Segoe UI Semibold", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblfee.ForeColor = Color.LimeGreen
-        lblfee.Location = New Point(1308, 117)
+        lblfee.Location = New Point(1152, 95)
         lblfee.Margin = New Padding(4, 0, 4, 0)
         lblfee.Name = "lblfee"
         lblfee.Size = New Size(179, 41)
@@ -104,7 +105,7 @@ Partial Class Dashboard
         lblProgress.AutoSize = True
         lblProgress.Font = New Font("Segoe UI Semibold", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblProgress.ForeColor = Color.LimeGreen
-        lblProgress.Location = New Point(1308, 440)
+        lblProgress.Location = New Point(1152, 364)
         lblProgress.Margin = New Padding(4, 0, 4, 0)
         lblProgress.Name = "lblProgress"
         lblProgress.Size = New Size(136, 41)
@@ -114,7 +115,7 @@ Partial Class Dashboard
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(1361, 168)
+        Label1.Location = New Point(1152, 161)
         Label1.Name = "Label1"
         Label1.Size = New Size(80, 25)
         Label1.TabIndex = 24
@@ -122,7 +123,7 @@ Partial Class Dashboard
         ' 
         ' ProgressBar1
         ' 
-        ProgressBar1.Location = New Point(1308, 543)
+        ProgressBar1.Location = New Point(1152, 531)
         ProgressBar1.Name = "ProgressBar1"
         ProgressBar1.Size = New Size(218, 39)
         ProgressBar1.TabIndex = 25
@@ -130,7 +131,7 @@ Partial Class Dashboard
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(1308, 490)
+        Label2.Location = New Point(1152, 443)
         Label2.Name = "Label2"
         Label2.Size = New Size(209, 50)
         Label2.TabIndex = 26

@@ -1,6 +1,7 @@
 ﻿Public Class Dashboard
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
+        Me.DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells
+        Me.DataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells
     End Sub
 
     Private Sub btnUnits_Click(sender As Object, e As EventArgs) Handles btnUnits.Click

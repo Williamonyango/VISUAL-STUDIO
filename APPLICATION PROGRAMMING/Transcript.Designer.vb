@@ -39,9 +39,11 @@ Partial Class Transcript
         ' labelTitle
         ' 
         labelTitle.AutoSize = True
+        labelTitle.Font = New Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        labelTitle.ForeColor = Color.LimeGreen
         labelTitle.Location = New Point(507, 47)
         labelTitle.Name = "labelTitle"
-        labelTitle.Size = New Size(108, 25)
+        labelTitle.Size = New Size(192, 41)
         labelTitle.TabIndex = 0
         labelTitle.Text = "RESULT SLIP"
         ' 

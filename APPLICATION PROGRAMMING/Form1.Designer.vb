@@ -31,7 +31,6 @@ Partial Class Form1
         btnDashboard = New Button()
         btnSocial = New Button()
         btnMessage = New Button()
-        Button4 = New Button()
         btnAdmission = New Button()
         btnAcademic = New Button()
         btnFinacials = New Button()
@@ -39,9 +38,9 @@ Partial Class Form1
         btnComplaints = New Button()
         btnFAQs = New Button()
         btnLogin = New Button()
-        Panel1 = New Panel()
         lblFname = New Label()
         lblWelcomeMessage = New Label()
+        Panel1 = New Panel()
         SuspendLayout()
         ' 
         ' lblRegNumber
@@ -97,7 +96,7 @@ Partial Class Form1
         lblWelcome.AutoSize = True
         lblWelcome.Font = New Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblWelcome.ForeColor = Color.ForestGreen
-        lblWelcome.Location = New Point(481, 43)
+        lblWelcome.Location = New Point(481, 24)
         lblWelcome.Margin = New Padding(4, 0, 4, 0)
         lblWelcome.Name = "lblWelcome"
         lblWelcome.Size = New Size(997, 41)
@@ -106,78 +105,86 @@ Partial Class Form1
         ' 
         ' btnDashboard
         ' 
+        btnDashboard.BackColor = Color.ForestGreen
+        btnDashboard.Font = New Font("Segoe UI", 15F)
+        btnDashboard.ForeColor = Color.White
         btnDashboard.Location = New Point(40, 182)
         btnDashboard.Margin = New Padding(4, 5, 4, 5)
         btnDashboard.Name = "btnDashboard"
-        btnDashboard.Size = New Size(130, 38)
+        btnDashboard.Size = New Size(171, 52)
         btnDashboard.TabIndex = 7
         btnDashboard.Text = "Dashboard"
-        btnDashboard.UseVisualStyleBackColor = True
+        btnDashboard.UseVisualStyleBackColor = False
         btnDashboard.Visible = False
         ' 
         ' btnSocial
         ' 
-        btnSocial.Location = New Point(40, 230)
+        btnSocial.BackColor = Color.ForestGreen
+        btnSocial.Font = New Font("Segoe UI", 15F)
+        btnSocial.ForeColor = Color.White
+        btnSocial.Location = New Point(40, 244)
         btnSocial.Margin = New Padding(4, 5, 4, 5)
         btnSocial.Name = "btnSocial"
-        btnSocial.Size = New Size(130, 38)
+        btnSocial.Size = New Size(130, 50)
         btnSocial.TabIndex = 8
         btnSocial.Text = "Socials"
-        btnSocial.UseVisualStyleBackColor = True
+        btnSocial.UseVisualStyleBackColor = False
         btnSocial.Visible = False
         ' 
         ' btnMessage
         ' 
-        btnMessage.Location = New Point(40, 278)
+        btnMessage.BackColor = Color.ForestGreen
+        btnMessage.Font = New Font("Segoe UI", 15F)
+        btnMessage.ForeColor = Color.White
+        btnMessage.Location = New Point(33, 318)
         btnMessage.Margin = New Padding(4, 5, 4, 5)
         btnMessage.Name = "btnMessage"
-        btnMessage.Size = New Size(130, 38)
+        btnMessage.Size = New Size(164, 57)
         btnMessage.TabIndex = 9
-        btnMessage.Text = "Message"
-        btnMessage.UseVisualStyleBackColor = True
+        btnMessage.Text = "Messages"
+        btnMessage.UseVisualStyleBackColor = False
         btnMessage.Visible = False
-        ' 
-        ' Button4
-        ' 
-        Button4.Location = New Point(61, 345)
-        Button4.Margin = New Padding(4, 5, 4, 5)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(11, 13)
-        Button4.TabIndex = 10
-        Button4.Text = "Button4"
-        Button4.UseVisualStyleBackColor = True
         ' 
         ' btnAdmission
         ' 
-        btnAdmission.Location = New Point(40, 327)
+        btnAdmission.BackColor = Color.ForestGreen
+        btnAdmission.Font = New Font("Segoe UI", 15F)
+        btnAdmission.ForeColor = Color.White
+        btnAdmission.Location = New Point(33, 398)
         btnAdmission.Margin = New Padding(4, 5, 4, 5)
         btnAdmission.Name = "btnAdmission"
-        btnAdmission.Size = New Size(130, 38)
+        btnAdmission.Size = New Size(171, 57)
         btnAdmission.TabIndex = 11
-        btnAdmission.Text = "Admission"
-        btnAdmission.UseVisualStyleBackColor = True
+        btnAdmission.Text = "Admissions"
+        btnAdmission.UseVisualStyleBackColor = False
         btnAdmission.Visible = False
         ' 
         ' btnAcademic
         ' 
-        btnAcademic.Location = New Point(40, 375)
+        btnAcademic.BackColor = Color.ForestGreen
+        btnAcademic.Font = New Font("Segoe UI", 15F)
+        btnAcademic.ForeColor = Color.White
+        btnAcademic.Location = New Point(40, 474)
         btnAcademic.Margin = New Padding(4, 5, 4, 5)
         btnAcademic.Name = "btnAcademic"
-        btnAcademic.Size = New Size(130, 38)
+        btnAcademic.Size = New Size(164, 50)
         btnAcademic.TabIndex = 12
         btnAcademic.Text = "Academic"
-        btnAcademic.UseVisualStyleBackColor = True
+        btnAcademic.UseVisualStyleBackColor = False
         btnAcademic.Visible = False
         ' 
         ' btnFinacials
         ' 
-        btnFinacials.Location = New Point(40, 423)
+        btnFinacials.BackColor = Color.ForestGreen
+        btnFinacials.Font = New Font("Segoe UI", 15F)
+        btnFinacials.ForeColor = Color.White
+        btnFinacials.Location = New Point(40, 544)
         btnFinacials.Margin = New Padding(4, 5, 4, 5)
         btnFinacials.Name = "btnFinacials"
-        btnFinacials.Size = New Size(130, 38)
+        btnFinacials.Size = New Size(164, 51)
         btnFinacials.TabIndex = 13
         btnFinacials.Text = "Financials"
-        btnFinacials.UseVisualStyleBackColor = True
+        btnFinacials.UseVisualStyleBackColor = False
         btnFinacials.Visible = False
         ' 
         ' Button8
@@ -192,24 +199,30 @@ Partial Class Form1
         ' 
         ' btnComplaints
         ' 
-        btnComplaints.Location = New Point(40, 472)
+        btnComplaints.BackColor = Color.ForestGreen
+        btnComplaints.Font = New Font("Segoe UI", 15F)
+        btnComplaints.ForeColor = Color.White
+        btnComplaints.Location = New Point(40, 615)
         btnComplaints.Margin = New Padding(4, 5, 4, 5)
         btnComplaints.Name = "btnComplaints"
-        btnComplaints.Size = New Size(130, 38)
+        btnComplaints.Size = New Size(187, 49)
         btnComplaints.TabIndex = 15
         btnComplaints.Text = "Complaints"
-        btnComplaints.UseVisualStyleBackColor = True
+        btnComplaints.UseVisualStyleBackColor = False
         btnComplaints.Visible = False
         ' 
         ' btnFAQs
         ' 
-        btnFAQs.Location = New Point(40, 520)
+        btnFAQs.BackColor = Color.ForestGreen
+        btnFAQs.Font = New Font("Segoe UI", 15F)
+        btnFAQs.ForeColor = Color.White
+        btnFAQs.Location = New Point(40, 688)
         btnFAQs.Margin = New Padding(4, 5, 4, 5)
         btnFAQs.Name = "btnFAQs"
-        btnFAQs.Size = New Size(130, 38)
+        btnFAQs.Size = New Size(130, 48)
         btnFAQs.TabIndex = 16
         btnFAQs.Text = "FAQs"
-        btnFAQs.UseVisualStyleBackColor = True
+        btnFAQs.UseVisualStyleBackColor = False
         btnFAQs.Visible = False
         ' 
         ' btnLogin
@@ -226,14 +239,6 @@ Partial Class Form1
         btnLogin.Text = "Login"
         btnLogin.UseVisualStyleBackColor = False
         ' 
-        ' Panel1
-        ' 
-        Panel1.Location = New Point(179, 192)
-        Panel1.Margin = New Padding(4, 5, 4, 5)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1587, 732)
-        Panel1.TabIndex = 21
-        ' 
         ' lblFname
         ' 
         lblFname.AutoSize = True
@@ -249,15 +254,23 @@ Partial Class Form1
         ' lblWelcomeMessage
         ' 
         lblWelcomeMessage.AutoSize = True
-        lblWelcomeMessage.Font = New Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblWelcomeMessage.ForeColor = Color.FromArgb(CByte(0), CByte(64), CByte(0))
-        lblWelcomeMessage.Location = New Point(579, 150)
+        lblWelcomeMessage.Font = New Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblWelcomeMessage.ForeColor = Color.LimeGreen
+        lblWelcomeMessage.Location = New Point(582, 145)
         lblWelcomeMessage.Margin = New Padding(4, 0, 4, 0)
         lblWelcomeMessage.Name = "lblWelcomeMessage"
-        lblWelcomeMessage.Size = New Size(99, 32)
+        lblWelcomeMessage.Size = New Size(105, 36)
         lblWelcomeMessage.TabIndex = 20
         lblWelcomeMessage.Text = "Label1"
         lblWelcomeMessage.Visible = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.Location = New Point(235, 182)
+        Panel1.Margin = New Padding(4, 5, 4, 5)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(1691, 736)
+        Panel1.TabIndex = 21
         ' 
         ' Form1
         ' 
@@ -273,7 +286,6 @@ Partial Class Form1
         Controls.Add(btnFinacials)
         Controls.Add(btnAcademic)
         Controls.Add(btnAdmission)
-        Controls.Add(Button4)
         Controls.Add(btnMessage)
         Controls.Add(btnSocial)
         Controls.Add(btnDashboard)
@@ -299,7 +311,6 @@ Partial Class Form1
     Friend WithEvents btnDashboard As Button
     Friend WithEvents btnSocial As Button
     Friend WithEvents btnMessage As Button
-    Friend WithEvents Button4 As Button
     Friend WithEvents btnAdmission As Button
     Friend WithEvents btnAcademic As Button
     Friend WithEvents btnFinacials As Button
@@ -307,8 +318,8 @@ Partial Class Form1
     Friend WithEvents btnComplaints As Button
     Friend WithEvents btnFAQs As Button
     Friend WithEvents btnLogin As Button
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents lblFname As Label
     Friend WithEvents lblWelcomeMessage As Label
+    Friend WithEvents Panel1 As Panel
 
 End Class
