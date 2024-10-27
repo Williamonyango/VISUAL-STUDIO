@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj": {}
+    "G:\\WRITING\\CLASS NOTES\\App Program\\VISUAL-STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj": {}
   },
   "projects": {
-    "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj": {
+    "G:\\WRITING\\CLASS NOTES\\App Program\\VISUAL-STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj",
+        "projectUniqueName": "G:\\WRITING\\CLASS NOTES\\App Program\\VISUAL-STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj",
         "projectName": "APPLICATION PROGRAMMING",
-        "projectPath": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj",
-        "packagesPath": "C:\\Users\\ojwan\\.nuget\\packages\\",
-        "outputPath": "C:\\programming\\VISUAL STUDIO\\APPLICATION PROGRAMMING\\obj\\",
+        "projectPath": "G:\\WRITING\\CLASS NOTES\\App Program\\VISUAL-STUDIO\\APPLICATION PROGRAMMING\\APPLICATION PROGRAMMING.vbproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "G:\\WRITING\\CLASS NOTES\\App Program\\VISUAL-STUDIO\\APPLICATION PROGRAMMING\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ojwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
