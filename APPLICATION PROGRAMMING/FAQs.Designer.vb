@@ -26,9 +26,10 @@ Partial Class FAQs
         ' 
         ' FAQs
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1095, 400)
+        ClientSize = New Size(1564, 667)
+        Margin = New Padding(4, 5, 4, 5)
         Name = "FAQs"
         Text = "FAQs"
         ResumeLayout(False)
