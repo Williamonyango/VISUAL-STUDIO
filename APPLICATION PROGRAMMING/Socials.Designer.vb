@@ -36,7 +36,7 @@ Partial Class Socials
         LinkLabel1.BackColor = Color.Lime
         LinkLabel1.Font = New Font("Segoe UI", 15F)
         LinkLabel1.LinkColor = Color.Blue
-        LinkLabel1.Location = New Point(736, 169)
+        LinkLabel1.Location = New Point(736, 105)
         LinkLabel1.Margin = New Padding(5, 0, 5, 0)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(208, 41)
@@ -50,7 +50,7 @@ Partial Class Socials
         LinkLabel2.BackColor = Color.Lime
         LinkLabel2.Font = New Font("Segoe UI", 15F)
         LinkLabel2.LinkColor = Color.Blue
-        LinkLabel2.Location = New Point(736, 418)
+        LinkLabel2.Location = New Point(736, 266)
         LinkLabel2.Margin = New Padding(5, 0, 5, 0)
         LinkLabel2.Name = "LinkLabel2"
         LinkLabel2.Size = New Size(241, 41)
@@ -64,7 +64,7 @@ Partial Class Socials
         LinkLabel3.BackColor = Color.Lime
         LinkLabel3.Font = New Font("Segoe UI", 15F)
         LinkLabel3.LinkColor = Color.Blue
-        LinkLabel3.Location = New Point(736, 649)
+        LinkLabel3.Location = New Point(736, 419)
         LinkLabel3.Margin = New Padding(5, 0, 5, 0)
         LinkLabel3.Name = "LinkLabel3"
         LinkLabel3.Size = New Size(212, 41)
@@ -77,7 +77,7 @@ Partial Class Socials
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 15F, FontStyle.Bold)
         Label1.ForeColor = Color.LimeGreen
-        Label1.Location = New Point(454, 169)
+        Label1.Location = New Point(454, 105)
         Label1.Margin = New Padding(5, 0, 5, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(132, 41)
@@ -89,7 +89,7 @@ Partial Class Socials
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 15F, FontStyle.Bold)
         Label2.ForeColor = Color.LimeGreen
-        Label2.Location = New Point(454, 418)
+        Label2.Location = New Point(454, 266)
         Label2.Margin = New Padding(5, 0, 5, 0)
         Label2.Name = "Label2"
         Label2.Size = New Size(38, 41)
@@ -101,7 +101,7 @@ Partial Class Socials
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 15F, FontStyle.Bold)
         Label3.ForeColor = Color.LimeGreen
-        Label3.Location = New Point(454, 671)
+        Label3.Location = New Point(444, 433)
         Label3.Margin = New Padding(5, 0, 5, 0)
         Label3.Name = "Label3"
         Label3.Size = New Size(151, 41)
