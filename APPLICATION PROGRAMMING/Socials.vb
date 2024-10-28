@@ -28,10 +28,16 @@
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
+        Dim psi As New ProcessStartInfo
+        psi.FileName = "https://x.com/DiscoverJKUAT"
+        psi.UseShellExecute = True
+        Process.Start(psi)
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
+        Dim psi As New ProcessStartInfo
+        psi.FileName = "https://www.facebook.com/DiscoverJKUAT/"
+        psi.UseShellExecute = True
+        Process.Start(psi)
     End Sub
 End Class
