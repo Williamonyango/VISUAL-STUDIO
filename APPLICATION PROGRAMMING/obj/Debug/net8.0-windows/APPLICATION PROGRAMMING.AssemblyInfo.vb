@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("APPLICATION PROGRAMMING"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62330447a4614fe0df80eb33a4a46b456d9b6ff"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac3bde6d220ed373114c794ec45fa27f97b9866"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("APPLICATION PROGRAMMING"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("APPLICATION PROGRAMMING"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
