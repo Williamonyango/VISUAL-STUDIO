@@ -11,6 +11,7 @@ Public Class Form1
 
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnReporting.Visible = False
+        btnLogout.Visible = False
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
@@ -23,6 +24,7 @@ Public Class Form1
         btnFinacials.Visible = True
         btnSocial.Visible = True
         btnReporting.Visible = True
+        btnLogout.Visible = True
 
         lblFname.Visible = False
         lblRegNumber.Visible = False
@@ -95,4 +97,7 @@ Public Class Form1
 
     End Sub
 
+    Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+        Application.Exit()
+    End Sub
 End Class

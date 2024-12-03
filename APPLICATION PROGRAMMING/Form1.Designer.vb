@@ -41,6 +41,7 @@ Partial Class Form1
         lblWelcomeMessage = New Label()
         Panel1 = New Panel()
         btnReporting = New Button()
+        btnLogout = New Button()
         SuspendLayout()
         ' 
         ' lblRegNumber
@@ -108,7 +109,7 @@ Partial Class Form1
         btnDashboard.BackColor = Color.ForestGreen
         btnDashboard.Font = New Font("Segoe UI", 15F)
         btnDashboard.ForeColor = Color.White
-        btnDashboard.Location = New Point(40, 182)
+        btnDashboard.Location = New Point(40, 135)
         btnDashboard.Margin = New Padding(4, 5, 4, 5)
         btnDashboard.Name = "btnDashboard"
         btnDashboard.Size = New Size(171, 52)
@@ -122,7 +123,7 @@ Partial Class Form1
         btnSocial.BackColor = Color.ForestGreen
         btnSocial.Font = New Font("Segoe UI", 15F)
         btnSocial.ForeColor = Color.White
-        btnSocial.Location = New Point(40, 244)
+        btnSocial.Location = New Point(40, 197)
         btnSocial.Margin = New Padding(4, 5, 4, 5)
         btnSocial.Name = "btnSocial"
         btnSocial.Size = New Size(130, 50)
@@ -136,7 +137,7 @@ Partial Class Form1
         btnMessage.BackColor = Color.ForestGreen
         btnMessage.Font = New Font("Segoe UI", 15F)
         btnMessage.ForeColor = Color.White
-        btnMessage.Location = New Point(33, 318)
+        btnMessage.Location = New Point(40, 266)
         btnMessage.Margin = New Padding(4, 5, 4, 5)
         btnMessage.Name = "btnMessage"
         btnMessage.Size = New Size(164, 57)
@@ -150,7 +151,7 @@ Partial Class Form1
         btnAdmission.BackColor = Color.ForestGreen
         btnAdmission.Font = New Font("Segoe UI", 15F)
         btnAdmission.ForeColor = Color.White
-        btnAdmission.Location = New Point(33, 398)
+        btnAdmission.Location = New Point(39, 342)
         btnAdmission.Margin = New Padding(4, 5, 4, 5)
         btnAdmission.Name = "btnAdmission"
         btnAdmission.Size = New Size(171, 57)
@@ -164,7 +165,7 @@ Partial Class Form1
         btnAcademic.BackColor = Color.ForestGreen
         btnAcademic.Font = New Font("Segoe UI", 15F)
         btnAcademic.ForeColor = Color.White
-        btnAcademic.Location = New Point(33, 535)
+        btnAcademic.Location = New Point(39, 479)
         btnAcademic.Margin = New Padding(4, 5, 4, 5)
         btnAcademic.Name = "btnAcademic"
         btnAcademic.Size = New Size(164, 50)
@@ -178,7 +179,7 @@ Partial Class Form1
         btnFinacials.BackColor = Color.ForestGreen
         btnFinacials.Font = New Font("Segoe UI", 15F)
         btnFinacials.ForeColor = Color.White
-        btnFinacials.Location = New Point(33, 600)
+        btnFinacials.Location = New Point(39, 549)
         btnFinacials.Margin = New Padding(4, 5, 4, 5)
         btnFinacials.Name = "btnFinacials"
         btnFinacials.Size = New Size(164, 51)
@@ -192,7 +193,7 @@ Partial Class Form1
         btnComplaints.BackColor = Color.ForestGreen
         btnComplaints.Font = New Font("Segoe UI", 15F)
         btnComplaints.ForeColor = Color.White
-        btnComplaints.Location = New Point(33, 661)
+        btnComplaints.Location = New Point(40, 610)
         btnComplaints.Margin = New Padding(4, 5, 4, 5)
         btnComplaints.Name = "btnComplaints"
         btnComplaints.Size = New Size(187, 49)
@@ -206,7 +207,7 @@ Partial Class Form1
         btnFAQs.BackColor = Color.ForestGreen
         btnFAQs.Font = New Font("Segoe UI", 15F)
         btnFAQs.ForeColor = Color.White
-        btnFAQs.Location = New Point(33, 720)
+        btnFAQs.Location = New Point(39, 669)
         btnFAQs.Margin = New Padding(4, 5, 4, 5)
         btnFAQs.Name = "btnFAQs"
         btnFAQs.Size = New Size(130, 48)
@@ -267,18 +268,31 @@ Partial Class Form1
         btnReporting.BackColor = Color.ForestGreen
         btnReporting.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnReporting.ForeColor = Color.White
-        btnReporting.Location = New Point(40, 477)
+        btnReporting.Location = New Point(39, 407)
         btnReporting.Name = "btnReporting"
         btnReporting.Size = New Size(158, 50)
         btnReporting.TabIndex = 0
         btnReporting.Text = "Reporting"
         btnReporting.UseVisualStyleBackColor = False
         ' 
+        ' btnLogout
+        ' 
+        btnLogout.BackColor = Color.ForestGreen
+        btnLogout.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnLogout.ForeColor = Color.White
+        btnLogout.Location = New Point(39, 735)
+        btnLogout.Name = "btnLogout"
+        btnLogout.Size = New Size(158, 61)
+        btnLogout.TabIndex = 0
+        btnLogout.Text = "Log Out"
+        btnLogout.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1783, 918)
+        Controls.Add(btnLogout)
         Controls.Add(btnReporting)
         Controls.Add(Panel1)
         Controls.Add(lblWelcomeMessage)
@@ -323,5 +337,6 @@ Partial Class Form1
     Friend WithEvents lblWelcomeMessage As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnReporting As Button
+    Friend WithEvents btnLogout As Button
 
 End Class
