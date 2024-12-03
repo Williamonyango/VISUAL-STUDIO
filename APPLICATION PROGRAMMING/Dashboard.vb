@@ -7,14 +7,14 @@
     Private Sub btnUnits_Click(sender As Object, e As EventArgs) Handles btnUnits.Click
         DataGridView1.Visible = True
 
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
-        Me.DataGridView1.Rows.Add("Antenna and Propagation", "EEE 2516", "Approved")
+        Me.DataGridView1.Rows.Add("Digital Signal Processing", "EEE 3516", "Approved")
+        Me.DataGridView1.Rows.Add("Microprocessors and Microcontrollers", "EEE 3616", "Approved")
+        Me.DataGridView1.Rows.Add("Control Systems Engineering", "EEE 3716", "Approved")
+        Me.DataGridView1.Rows.Add("Power Electronics", "EEE 3816", "Approved")
+        Me.DataGridView1.Rows.Add("Communication Systems", "EEE 3916", "Approved")
+        Me.DataGridView1.Rows.Add("Embedded Systems", "EEE 4016", "Approved")
+        Me.DataGridView1.Rows.Add("VLSI Design", "EEE 4116", "Approved")
+        Me.DataGridView1.Rows.Add("Renewable Energy Systems", "EEE 4216", "Approved")
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles lblProgress.Click

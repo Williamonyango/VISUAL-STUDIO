@@ -23,40 +23,15 @@ Partial Class Financials
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Button1 = New Button()
-        Button2 = New Button()
         ComboBox1 = New ComboBox()
         Button3 = New Button()
         DataGridView1 = New DataGridView()
         Column1 = New DataGridViewTextBoxColumn()
         Column2 = New DataGridViewTextBoxColumn()
         Column3 = New DataGridViewTextBoxColumn()
+        Label1 = New Label()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.ForestGreen
-        Button1.Font = New Font("Segoe UI", 15F)
-        Button1.ForeColor = Color.White
-        Button1.Location = New Point(142, 34)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(230, 52)
-        Button1.TabIndex = 0
-        Button1.Text = "Fee Structure"
-        Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Button2
-        ' 
-        Button2.BackColor = Color.ForestGreen
-        Button2.Font = New Font("Segoe UI", 15F)
-        Button2.ForeColor = Color.White
-        Button2.Location = New Point(455, 34)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(221, 52)
-        Button2.TabIndex = 1
-        Button2.Text = "Fee Statement"
-        Button2.UseVisualStyleBackColor = False
         ' 
         ' ComboBox1
         ' 
@@ -118,28 +93,38 @@ Partial Class Financials
         Column3.ReadOnly = True
         Column3.Width = 150
         ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.BackColor = SystemColors.Control
+        Label1.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.ForeColor = Color.ForestGreen
+        Label1.Location = New Point(435, 32)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(192, 41)
+        Label1.TabIndex = 5
+        Label1.Text = "Fee Structure"
+        ' 
         ' Financials
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1240, 659)
+        Controls.Add(Label1)
         Controls.Add(DataGridView1)
         Controls.Add(Button3)
         Controls.Add(ComboBox1)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
         Name = "Financials"
         Text = "Financials"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
-
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Button3 As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Label1 As Label
 End Class

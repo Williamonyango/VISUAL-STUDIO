@@ -10,7 +10,7 @@ Public Class Form1
     End Sub
 
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        btnReporting.Visible = False
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
@@ -22,6 +22,7 @@ Public Class Form1
         btnMessage.Visible = True
         btnFinacials.Visible = True
         btnSocial.Visible = True
+        btnReporting.Visible = True
 
         lblFname.Visible = False
         lblRegNumber.Visible = False
@@ -39,8 +40,6 @@ Public Class Form1
         txtCourse.Visible = False
 
         btnLogin.Visible = False
-
-
     End Sub
 
     Private Sub btnDashboard_Click(sender As Object, e As EventArgs) Handles btnDashboard.Click
@@ -52,7 +51,6 @@ Public Class Form1
         panel.TopLevel = False
         Panel1.Controls.Add(panel)
         panel.Show()
-
     End Sub
 
     Private Sub btnSocial_Click(sender As Object, e As EventArgs) Handles btnSocial.Click
@@ -66,7 +64,9 @@ Public Class Form1
     Private Sub btnAdmission_Click(sender As Object, e As EventArgs) Handles btnAdmission.Click
         switchPanel(Admission)
     End Sub
-
+    Private Sub btnReporting_Click(sender As Object, e As EventArgs) Handles btnReporting.Click
+        switchPanel(Reporting)
+    End Sub
     Private Sub btnAcademic_Click(sender As Object, e As EventArgs) Handles btnAcademic.Click
         switchPanel(Transcript)
     End Sub
@@ -94,4 +94,5 @@ Public Class Form1
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
+
 End Class

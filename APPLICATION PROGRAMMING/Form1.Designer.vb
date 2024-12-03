@@ -34,13 +34,13 @@ Partial Class Form1
         btnAdmission = New Button()
         btnAcademic = New Button()
         btnFinacials = New Button()
-        Button8 = New Button()
         btnComplaints = New Button()
         btnFAQs = New Button()
         btnLogin = New Button()
         lblFname = New Label()
         lblWelcomeMessage = New Label()
         Panel1 = New Panel()
+        btnReporting = New Button()
         SuspendLayout()
         ' 
         ' lblRegNumber
@@ -164,7 +164,7 @@ Partial Class Form1
         btnAcademic.BackColor = Color.ForestGreen
         btnAcademic.Font = New Font("Segoe UI", 15F)
         btnAcademic.ForeColor = Color.White
-        btnAcademic.Location = New Point(40, 474)
+        btnAcademic.Location = New Point(33, 535)
         btnAcademic.Margin = New Padding(4, 5, 4, 5)
         btnAcademic.Name = "btnAcademic"
         btnAcademic.Size = New Size(164, 50)
@@ -178,7 +178,7 @@ Partial Class Form1
         btnFinacials.BackColor = Color.ForestGreen
         btnFinacials.Font = New Font("Segoe UI", 15F)
         btnFinacials.ForeColor = Color.White
-        btnFinacials.Location = New Point(40, 544)
+        btnFinacials.Location = New Point(33, 600)
         btnFinacials.Margin = New Padding(4, 5, 4, 5)
         btnFinacials.Name = "btnFinacials"
         btnFinacials.Size = New Size(164, 51)
@@ -187,22 +187,12 @@ Partial Class Form1
         btnFinacials.UseVisualStyleBackColor = False
         btnFinacials.Visible = False
         ' 
-        ' Button8
-        ' 
-        Button8.Location = New Point(159, 638)
-        Button8.Margin = New Padding(4, 5, 4, 5)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(11, 13)
-        Button8.TabIndex = 14
-        Button8.Text = "Button8"
-        Button8.UseVisualStyleBackColor = True
-        ' 
         ' btnComplaints
         ' 
         btnComplaints.BackColor = Color.ForestGreen
         btnComplaints.Font = New Font("Segoe UI", 15F)
         btnComplaints.ForeColor = Color.White
-        btnComplaints.Location = New Point(40, 615)
+        btnComplaints.Location = New Point(33, 661)
         btnComplaints.Margin = New Padding(4, 5, 4, 5)
         btnComplaints.Name = "btnComplaints"
         btnComplaints.Size = New Size(187, 49)
@@ -216,7 +206,7 @@ Partial Class Form1
         btnFAQs.BackColor = Color.ForestGreen
         btnFAQs.Font = New Font("Segoe UI", 15F)
         btnFAQs.ForeColor = Color.White
-        btnFAQs.Location = New Point(40, 688)
+        btnFAQs.Location = New Point(33, 720)
         btnFAQs.Margin = New Padding(4, 5, 4, 5)
         btnFAQs.Name = "btnFAQs"
         btnFAQs.Size = New Size(130, 48)
@@ -272,17 +262,29 @@ Partial Class Form1
         Panel1.Size = New Size(1691, 736)
         Panel1.TabIndex = 21
         ' 
+        ' btnReporting
+        ' 
+        btnReporting.BackColor = Color.ForestGreen
+        btnReporting.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnReporting.ForeColor = Color.White
+        btnReporting.Location = New Point(40, 477)
+        btnReporting.Name = "btnReporting"
+        btnReporting.Size = New Size(158, 50)
+        btnReporting.TabIndex = 0
+        btnReporting.Text = "Reporting"
+        btnReporting.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1783, 918)
+        Controls.Add(btnReporting)
         Controls.Add(Panel1)
         Controls.Add(lblWelcomeMessage)
         Controls.Add(btnLogin)
         Controls.Add(btnFAQs)
         Controls.Add(btnComplaints)
-        Controls.Add(Button8)
         Controls.Add(btnFinacials)
         Controls.Add(btnAcademic)
         Controls.Add(btnAdmission)
@@ -314,12 +316,12 @@ Partial Class Form1
     Friend WithEvents btnAdmission As Button
     Friend WithEvents btnAcademic As Button
     Friend WithEvents btnFinacials As Button
-    Friend WithEvents Button8 As Button
     Friend WithEvents btnComplaints As Button
     Friend WithEvents btnFAQs As Button
     Friend WithEvents btnLogin As Button
     Friend WithEvents lblFname As Label
     Friend WithEvents lblWelcomeMessage As Label
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents btnReporting As Button
 
 End Class
